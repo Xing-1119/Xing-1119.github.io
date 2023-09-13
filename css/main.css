@@ -1,6 +1,12 @@
 h1{
     color:rosybrown
 }
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
 #nav {
     width: 100px;
     background-color: beige;
