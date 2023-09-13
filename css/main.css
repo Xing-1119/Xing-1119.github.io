@@ -1,0 +1,34 @@
+h1{
+    color:rosybrown
+}
+#nav {
+    width: 100px;
+    background-color: beige;
+    float:left;
+}
+
+#banner {
+    width: 800px;
+    height: 100px;
+    background-color: brown;
+    clear:both;
+}
+
+#content {
+    width: 600px;
+    float:left;
+}
+
+#info {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    float:left;
+}
+
+#footer {
+    width: 800px;
+    height: 50px;
+    background-color: azure;
+    clear:both;
+}
