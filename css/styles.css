@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.banner {
+    background-color: #8ECDDD; /* 更新 banner 的底色為 #8ECDDD */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.navigator {
+    background-color: #EEEEEE;
+    color: #333;
+    text-align: left;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navigator ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigator li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.content-wrapper {
+    margin-top: 60px;
+}
+
+.section {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 100%;
+}
+
+.section .banner {
+    background-color: #FFCC70;
+    text-align: center;
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.section .content {
+    margin-top: 20px;
+    height: 500px;
+    padding: 70px;
+    text-align: center;
+}
+
+.text-container {
+    padding: 0 150px;
+    text-align: left;
+    background-color: #FFFADD;
+}
+
+.text-content {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
